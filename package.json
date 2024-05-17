@@ -1,0 +1,38 @@
+{
+  "name": "ip-address-retriever",
+  "version": "1.0.0",
+  "description": "A utility for retrieving the public IPv4 and IPv6 addresses using the ipify API.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamarthMali/npm-ip-address-retriever.git"
+  },
+  "keywords": [
+    "ip",
+    "ipv4",
+    "ipv6",
+    "address",
+    "retrieval",
+    "utility",
+    "ipify"
+  ],
+  "author": "Samarth Mali <samarthmali.007@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamarthMali/npm-ip-address-retriever/issues"
+  },
+  "homepage": "https://github.com/SamarthMali/npm-ip-address-retriever/blob/master/readme.md",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  },
+  "files": ["lib/**/*"]
+}
