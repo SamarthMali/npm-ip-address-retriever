@@ -35,7 +35,6 @@ export class IP {
 
     static async getIpv4(): Promise<string> {
         try {
-            console.log(await IP.getIpAddress('api.ipify.org'));
             return await IP.getIpAddress('api.ipify.org');
         } catch (error) {
             console.error('Error:', error);
